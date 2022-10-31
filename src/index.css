@@ -1,13 +1,68 @@
 body {
+  background-color: #ffe6ff;
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
+}
+ul.header {
+  background-color: #e6e6ff;
+  padding: 0;
+}
+ul.header li a {
+  color:  #1a1aff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  /* float: right; */
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.likes__wrapper{
+  display:flex;
+  align-content:center;
+  justify-content:center;
+   
+}
+.likes__relavance{
+  position:relative;
+  padding:0 80px;
+}
+.likes__list{
+  position:absolute;
+  box-sizing: border-box;
+  max-height:150px;
+  z-index:999;
+  background:white;
+  padding:10px;
+  float: right;
+  right: 10%;
+  border:1px solid grey;
+  box-shadow: 0 0 2px 2px grey;
 }
