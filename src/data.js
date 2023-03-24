@@ -1,4 +1,20 @@
 export const projects = [
+  {
+    title: "Notifications scraper",
+    subtitle: "Python, Task Scheduling",
+    description:
+      "Developed this application as a freelancer. It is a bot to automatically scrape newly added data to get the latest comments/ notifications on govt. job",
+    image: "",
+    link: "https://github.com/vineeth-119/tspsc-scrapring-project",
+  },
+  {
+    title: "Telugu Panchangam Calculator ",
+    subtitle: "Java, Springboot, Microservices, React.js",
+    description:
+      "Developed this application as a freelancer. This application is used to calculate the Thithi, Nakshatra and other timeseeking details based on the coordinates of Sun and Moon from Vedas. In General, those coordinates were given based on time as metric",
+    image: "",
+    link: "https://github.com/vineeth-119",
+  },
     {
       title: "Public Police Interface Application with criminal face recognition",
       subtitle: "Android, Java, Firebase, Django, Bootstrap, face-recognition library",
@@ -7,14 +23,7 @@ export const projects = [
       image: "./weconnect.png",
       link: "https://github.com/vineeth-119/WeConnectAndroid",
     },
-    {
-        title: "Notifications scraper",
-        subtitle: "Python, Task Scheduling",
-        description:
-          "Developed this application as a freelancer. It is a bot to automatically scrape newly added data to get the latest comments/ notifications on govt. job",
-        image: "",
-        link: "https://github.com/vineeth-119/tspsc-scrapring-project",
-      },
+    
     {
       title: "Anti-Theft Bike Parking Application",
       subtitle: "Android, Java, Firebase, RaspberryPI",
@@ -82,7 +91,7 @@ export const projects = [
         location:"Chennur, Mancherial",
         year:"2015",
         cgpa:"9.2",
-    }
+    },
   ]
   export const skills = [
     "Java",
@@ -100,5 +109,8 @@ export const projects = [
     "Node",
     "LLD",
     "HLD",
+    "Node.js",
+    "AWS",
+    "System Design",
   ];
   

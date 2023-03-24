@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import {FaAddressCard,FaCode,FaGitSquare,FaInstagramSquare,FaLinkedin,FaPeopleArrows,FaPhoneAlt, FaWhatsapp, FaWhatsappSquare,} from "react-icons/fa";
-import {  GrMail, GrNetwork } from "react-icons/gr";
+import {FaAddressCard,FaCode,FaGitSquare,FaInstagramSquare,FaLinkedin,FaPeopleArrows,FaPhoneAlt, FaWhatsappSquare,} from "react-icons/fa";
+import {  GrMail } from "react-icons/gr";
 import {SiLeetcode,SiCodechef,SiHackerrank,SiGeeksforgeeks} from "react-icons/si";
 class Contact extends Component {
   render() {
     return (
       <section id="contact" className="relative">
-          <div className="container  px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+          <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-1/2 px-6">
               <FaAddressCard className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
                 <span className="title-font font-semibold text-white tracking-widest text-xs">

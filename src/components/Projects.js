@@ -22,7 +22,7 @@ class Projects extends Component {
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900">
+                <div className="px-8 py-10 relative w-full border-4 border-gray-800 bg-gray-900">
                   
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}

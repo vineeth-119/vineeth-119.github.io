@@ -17,12 +17,13 @@ class Experience extends Component{
                             <i>Choose a job you love, and you will never have to work!!</i>
                         </p>
                     </div>
-                    <div className="flex -m-4 justify-center">
+                    <div className="flex flex-wrap -m-4">
                         {workExperience.map((work) => (
-                              
+              
+                         <div key={work.title} className="sm:w-1/2 w-100 p-4">  
                             <div className="flex relative">
                              {/* <ModalHover onHover={this.RenderModal.RenderModal(work)}> */}
-                             <div className="px-8 py-10 relative z-10 w-full border-1 border-gray-700 bg-gray-900 ">
+                             <div className="px-8 py-10 relative w-full border-1 border-gray-700 bg-gray-900 ">
                                 
                                 <h2 className="title-font text-lg font-medium text-white mb-3">
                                     {work.title}
@@ -34,6 +35,7 @@ class Experience extends Component{
                                 </div>
                              {/* </ModalHover> */}
                               
+                            </div>
                             </div>
                         ))}
                     </div>
