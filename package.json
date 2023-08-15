@@ -12,8 +12,7 @@
     "react-icons": "^4.6.0",
     "react-modal-hover": "^1.1.13",
     "react-router-dom": "^6.4.2",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "postcss-flexbugs-fixes": "^5.0.2"
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "web-vitals": "^3.3.0"
   }
 }

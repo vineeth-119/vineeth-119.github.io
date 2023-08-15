@@ -54,11 +54,19 @@ export const projects = [
   export const workExperience = [
     {
       title:
+        "Software Engineer",
+      image: "./modeln.jfif",
+      skill: "Java, Angular 15, Springboot, Spring JPA, REST-API, PostgreSQL, MsSql, Oracle SQL, Docker, Kubernetes, Solr",
+      company: "OpenText",
+      description:"currently working on feature development in Exstream (CCM tool) as a full stack developer (Backend heavy)",
+    },
+    {
+      title:
         "Associate Member Technical Staff",
       image: "./modeln.jfif",
       skill: "Java, React.js, REST-API, SQL, Persistant Objects (Springboot-JPA) ",
       company: "Model N",
-      description:"Currently working on resolving critical issues and enhancing Revenue Management Application for Life-sciences industries using Java, React.Js, Oracle SQL, and REST-API calls by following Agile principles. Developed a Web-Scraper in Django using web parsers to provide EOL reminders. Delivered Knowledge Transfer sessions on Apache Kafka and Model N custom frameworks to co-peers. Contributed to technical documentation",
+      description:"Worked on resolving and triaging critical bugs and building enhancements of Revenue Management Application suite of Life Sciences industries using Java, Oracle SQL, React.Js, REST-API, Mockito and JPA by following Agile Principles. Used SQL tuning operations and techniques in improving performances of SQL queries. Contributed to optimizing product suite setup using java and Shell. Used Java8 DateTime API to add TimeZone properties to the application using Java8 to add application support to users from different Timezone or countries. Worked on designing and developing a parser to import and export .edi files to the system by following serialization techniques. Worked on adding validations and data migrations from version to version. I have taken on the responsibility of providing guidance and support to several New College Grads and Joiners during their training and initial phase of work. Delivered Knowledge Transfer sessions on Model N product suite frameworks and architecture to co-peers",
     },
     {
       title:
@@ -101,8 +109,10 @@ export const projects = [
     "SQL",
     "NoSQL",
     "CI/CD pipelines",
-    "AWS",
+    "Docker",
+    "Kubernetes",
     "Springboot",
+    "PostgreSQL",
     "Persistent Objects",
     "JavaScript",
     "React",
