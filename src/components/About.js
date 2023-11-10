@@ -16,12 +16,12 @@ class About extends Component {
           </p>
           <div className="flex justify-center">
             <a
-              href="#contact"
+              href="/portfolio/#contact"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
               Connect with Me
             </a>
             <a
-              href="#projects"
+              href="/portfolio/#projects"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               My project Works
             </a>
