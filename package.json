@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.2.0",
-  "homepage": "https://vineeth-119.github.io/portfolio/",
+  "homepage": "https://vineeth-119.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
