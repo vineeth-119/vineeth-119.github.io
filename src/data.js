@@ -42,6 +42,13 @@ export const projects = [
     {
       title:
         "Software Engineer",
+      skill: "Java, RPC, Python, Bazel, Kotlin, Junit, SQL, NoSQL, Android",
+      company: "Google",
+      description:"Currently working on developing new features and improve development infrastructure of G1 and Photos product in Android, Web and iOS platforms",
+    },
+    {
+      title:
+        "Software Engineer",
       skill: "Java, Angular 15, Springboot, Spring JPA, REST-API, PostgreSQL, MsSql, Oracle SQL, Docker, Kubernetes, Solr",
       company: "OpenText",
       description:"currently working on feature development in Exstream (CCM tool) as a full stack developer (Backend heavy)",
@@ -113,6 +120,7 @@ export const projects = [
     "Node.js",
     "AWS Basics",
     "System Design",
-    "AI/ML concepts"
+    "AI/ML concepts",
+    "RPCs"
   ];
   
